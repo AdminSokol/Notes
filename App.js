@@ -7,10 +7,7 @@ import { Todolist } from './src/Todolist'
 
 export default function App() {
 
-  const [todos, setTodos] = useState([
-    {id:'1', title: 'Ведь при открытии должна быть хотя бы одна запись согласно заданию'},  // 'id' shouldn't be type integer
-    {id:'2',title: 'А будет две=). Для удаление записи - удерживайте запись пальцем(курсором)'}, // for an internship assignment=)
-  ])
+  const [todos, setTodos] = useState([])
 
   const addTodo = title =>{
 
